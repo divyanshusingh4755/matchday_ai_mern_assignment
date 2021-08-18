@@ -1,4 +1,4 @@
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect } from 'react';
 import court from "../assests/court.png"
@@ -73,8 +73,8 @@ function MainContent() {
                                                 <tr>
                                                     <td></td>
                                                     <th scope="col">Total</th>
-                                                    <th scope="col">Straight <br /><span className="arrow">&#8593;</span></th>
-                                                    <th scope="col">Cross <br /> <span className="arrow">&#8599;</span></th>
+                                                    <th scope="col">Straight <br /><FontAwesomeIcon icon={faArrowUp} className="arrow" /></th>
+                                                    <th scope="col">Cross <br /> <FontAwesomeIcon icon={faArrowUp} className="arroweast" /></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -107,8 +107,8 @@ function MainContent() {
                                                 <tr>
                                                     <td></td>
                                                     <th scope="col">Total</th>
-                                                    <th scope="col">Straight <br /><span className="arrow">&#8593;</span></th>
-                                                    <th scope="col">Cross <br /> <span className="arrow">&#8599;</span></th>
+                                                    <th scope="col">Straight <br /><FontAwesomeIcon icon={faArrowUp} className="arrow" /></th>
+                                                    <th scope="col">Cross <br /> <FontAwesomeIcon icon={faArrowUp} className="arroweast" /></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -141,8 +141,8 @@ function MainContent() {
                                                 <tr>
                                                     <td></td>
                                                     <th scope="col">Total</th>
-                                                    <th scope="col">Straight <br /><span className="arrow">&#8593;</span></th>
-                                                    <th scope="col">Cross <br /> <span className="arrow">&#8599;</span></th>
+                                                    <th scope="col">Straight <br /><FontAwesomeIcon icon={faArrowUp} className="arrow" /></th>
+                                                    <th scope="col">Cross <br /> <FontAwesomeIcon icon={faArrowUp} className="arroweast" /></th>
                                                 </tr>
                                             </thead>
                                             <tbody>

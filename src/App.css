@@ -28,6 +28,7 @@
   font-weight: 500;
   line-height: 28.8px;
   color: white;
+  font-family: "lato";
 }
 
 .menu{
@@ -44,6 +45,7 @@
   font-size: 20px;
   color: white;
   line-height: 24px;
+  font-family: "lato";
 }
 
 .link{
@@ -82,12 +84,14 @@
   line-height: 16.5px;
   color: #9DA8BF;
   margin-right: 10px;
+  font-family: "lato";
 }
 
 .breadcrumb_primary{
   color: #21294C;
   line-height: 16.5px;
   font-size: 16px;
+  font-family: "lato";
 }
 
 .breadcrumb-icon{
@@ -119,11 +123,13 @@
   font-size: 30px;
   line-height: 36px;
   margin-bottom: 20px;
+  font-family: "lato";
 }
 
 .game-detail-subheading{
   font-size: 18px;
   line-height: 131.5%;
+  font-family: "lato";
 }
 
 .match-detail{
@@ -170,6 +176,7 @@
   text-align: center;
   color: white;
   margin-top: 10px;
+  font-family: "lato";
 }
 
 .score{
@@ -179,6 +186,7 @@
   background: #48B499;
   border-radius: 4px;
   padding: 2px 4px;
+  font-family: "lato";
   color: #FFFFFF;
 }
 
@@ -191,6 +199,7 @@
   font-size: 14px;
   line-height: 150%;
   margin-left: 5px;
+  font-family: "lato";
 }
 
 .tab{
@@ -206,6 +215,7 @@
   font-size: 20px;
   line-height: 145.7%;
   color: #21294C;
+  font-family: "lato";
   border: none;
   margin-bottom: 50px;
 }
@@ -242,8 +252,9 @@
   left: 26px;
   top: 21px;
   font-size: 20px;
-  /* line-height: 24px; */
+  font-family: "lato";
   color: #21294C;
+  font-weight: 700;
 }
 
 .main-sidebar-content{
@@ -257,6 +268,7 @@
   line-height: 29px;
   margin-top: 10px;
   margin-bottom: 20px;
+  font-family: "lato";
 }
 
 .content-select{
@@ -281,6 +293,7 @@
   border: none;
   margin-bottom: 20px;
   color: white;
+  font-family: "lato";
 }
 
 .tablinks-inner:first-child{
@@ -307,6 +320,7 @@
 .footer-heading{
   font-weight: 600;
   font-size: 246x;
+  font-family: "lato";
   line-height: 169.9%;
 }
 
@@ -346,6 +360,7 @@
   font-size: 18px;
   line-height: 232.52%;
   opacity: 0.7;
+  font-family: "lato";
 }
 
 .more-content{
@@ -360,11 +375,13 @@
   padding: 5px;
   margin: 10px;
   font-size: 8px;
+  font-family: "lato";
 }
 
 .more-content-text{
   display: flex;
   align-items: center;
+  font-family: "lato";
 }
 
 .card-border{
@@ -406,6 +423,7 @@
   font-size: 15px;
   transition: 0.4s;
   margin: 10px 0px;
+  font-family: "lato";
 }
 
 .active, .accordion:hover {
@@ -413,16 +431,18 @@
 }
 
 .accordion:after {
-  content: '\003C';
+  content: '\2039';
   color: #777;
   font-weight: bold;
   float: right;
   margin-left: 5px;
   transform: rotateZ(90deg);
+  font-size: 30px;
+  font-family: "lato";
 }
 
 .active:after {
-  content: "\003E";
+  content: "\203A";
   transform: rotateZ(90deg);
 }
 
@@ -459,6 +479,7 @@ tbody tr th{
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+  font-family: "lato";
 }
 
 tr:nth-child(even) {
@@ -467,6 +488,13 @@ tr:nth-child(even) {
 
 .arrow{
   height: 18px;
+  margin-top: 10px;
+}
+
+.arroweast{
+  height: 18px;
+  margin-top: 10px;
+  transform: rotateZ(45deg)
 }
 
 .winner{
